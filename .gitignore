@@ -1,0 +1,40 @@
+# Agent / planning files (never commit)
+IMPLEMENTATION_PLAN.md
+PROGRESS.md
+idea.md
+.cursor
+
+# Binaries
+/sshmark
+/bin/
+/dist/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage & tools
+coverage.out
+coverage.html
+.goreleaser-local.yml
+
+# Env
+.env
+.env.*
